@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>example</h1>
+    <form action="/upload/Modelimage" method="post" enctype="multipart/form-data">
+        Modedl Image 
+        <input type="file" name="ModelImage"required  webkitdirectory mozdirectory multiple directory>
+        <button type="submit">upload</button>
+    </form>
+<br><br>
+<form action="/upload/Clothimage" method="post" enctype="multipart/form-data">
+
+    Cloth Image 
+    <input type="file" name="Clothimage"required  webkitdirectory mozdirectory multiple directory > 
+    <button type="submit">upload</button>
+</form>
+       
+<br><br> 
+<form action="/upload/Resultimage" method="post" enctype="multipart/form-data">
+
+    Result Image
+    <input type="file" name="Resultimage"required  webkitdirectory mozdirectory multiple directory >
+    
+<button type="submit">upload</button>
+<br><br>
+
+</form>
+<form  action="/upload/csvFile" method="post" id="csvForm" enctype="multipart/form-data">
+    <input type="file"  name="csvFile" accept=".csv">
+    <button type="submit">upload</button>
+</form>
+   
+<br><br>
+
+</body>
+</html>
